@@ -1,3 +1,5 @@
+# The project template is different for ML & DL projects. Respective file for ML projects is on the github repo. as "end-to-end-ml-project-with-mlflow". And for DL projects, the file is as below.
+
 import os
 from pathlib import Path
 import logging
