@@ -1,8 +1,8 @@
-AUGMENTATION: True
+AUGMENTATION: True # Training parameters
 IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
-BATCH_SIZE: 16
+BATCH_SIZE: 16 # Training parameters
 INCLUDE_TOP: False
-EPOCHS: 50
+EPOCHS: 5 # Training parameters
 CLASSES: 2
 WEIGHTS: imagenet
 LEARNING_RATE: 0.01
