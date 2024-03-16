@@ -4,6 +4,7 @@ from src.cnnClassifier.utils.common import read_yaml, create_directories
 from src.cnnClassifier.entity.config_entity import DataIngestionConfig
 from src.cnnClassifier.entity.config_entity import PrepareBaseModelConfig
 from src.cnnClassifier.entity.config_entity import ModelTrainingConfig
+from src.cnnClassifier.entity.config_entity import EvaluationConfig
 
 class ConfigurationManager:
     def __init__(self, config_filepath=CONFIG_FILE_PATH, params_filepath=PARAMS_FILE_PATH):
@@ -64,3 +65,14 @@ class ConfigurationManager:
         )
 
         return model_training_config
+    
+    def get_evaluation_config(self) -> EvaluationConfig:
+        evaluation_config = EvaluationConfig(
+            path_of_model="artifacts/training/model.h5",
+            training_data="artifacts/data_ingestion/kidney-ct-scan-image",
+            all_params=self.params,
+            mlflow_uri="https://dagshub.com/vedanshgupta606/end-to-end-dl-project.mlflow",
+            params_batch_size=self.params.BATCH_SIZE,
+            params_image_size=self.params.IMAGE_SIZE
+        )
+        return evaluation_config
