@@ -3,7 +3,7 @@ from zipfile import ZipFile
 import requests
 import tensorflow as tf
 from pathlib import Path
-from src.cnnClassifier.config.configuration import PrepareBaseModelConfig
+from cnnClassifier.config.configuration import PrepareBaseModelConfig
 
 class PrepareBaseModel:
     def __init__(self,config : PrepareBaseModelConfig):

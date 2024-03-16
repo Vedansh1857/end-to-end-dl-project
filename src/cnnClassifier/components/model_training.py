@@ -1,7 +1,7 @@
 import os
 import tensorflow as tf
 from pathlib import Path
-from src.cnnClassifier.config.configuration import ModelTrainingConfig
+from cnnClassifier.config.configuration import ModelTrainingConfig
 
 class Training:
     def __init__(self, config:ModelTrainingConfig):
