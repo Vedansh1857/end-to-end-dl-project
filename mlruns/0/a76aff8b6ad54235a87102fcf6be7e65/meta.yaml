@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-dl-project/mlruns/0/a76aff8b6ad54235a87102fcf6be7e65/artifacts
+end_time: 1710667810447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a76aff8b6ad54235a87102fcf6be7e65
+run_name: smiling-mule-666
+run_uuid: a76aff8b6ad54235a87102fcf6be7e65
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710667799102
+status: 3
+tags: []
+user_id: vedan

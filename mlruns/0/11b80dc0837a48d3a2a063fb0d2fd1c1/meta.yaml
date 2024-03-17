@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-dl-project/mlruns/0/11b80dc0837a48d3a2a063fb0d2fd1c1/artifacts
+end_time: 1710675796345
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11b80dc0837a48d3a2a063fb0d2fd1c1
+run_name: orderly-swan-647
+run_uuid: 11b80dc0837a48d3a2a063fb0d2fd1c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710675781467
+status: 3
+tags: []
+user_id: vedan

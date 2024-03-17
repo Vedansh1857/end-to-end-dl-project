@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/end-to-end-dl-project/mlruns/0/cb66cbcb43c04b3a95c171f5987dd643/artifacts
+end_time: 1710672824809
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb66cbcb43c04b3a95c171f5987dd643
+run_name: inquisitive-dove-640
+run_uuid: cb66cbcb43c04b3a95c171f5987dd643
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710672806420
+status: 3
+tags: []
+user_id: vedan
